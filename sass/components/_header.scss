@@ -77,12 +77,6 @@
       margin-bottom: 10px;
     }
 
-    #main-icon1{
-      display: none;
-    }
-    #main-icon2{
-      display: none;
-    }
     #main-nav{
       display: none;
     }
@@ -127,22 +121,6 @@
       width: 50%;
   }
 
-  #main-icon1{
-      display: block;
-      height: 111px;
-      margin: 0;
-  }
-  #main-icon2{
-      display: block;
-      height: 111px;
-      margin: 0;
-  }
-
-  #main-icon1:hover, #main-icon2:hover{
-      background-color: #ECDBEF;
-      cursor: pointer;
-  }
-
   #main-nav{
       display: block;
       height: 111px;
@@ -182,9 +160,20 @@
     border-bottom: 3px solid #06113C;
   }
 
+}
 
-  #main-icon1, #main-icon2{
-      display: flex;
-      align-items: center;
+@media screen and (min-width:1920px) {
+
+  #main-header{
+      height: 127px;
   }
+
+  #main-nav{
+      height: 127px;
+  }
+
+  #main-logo img{
+      width: 70%;
+  }
+
 }
