@@ -1,0 +1,107 @@
+#project {
+    height: 5297px;
+    background-color: #ECDBEF;
+}
+
+#title-project {
+    font-family: 'Roboto', sans-serif;
+    font-size: 85px;
+    color: #F6FAFB;
+    font-weight: 1300;
+    opacity: 30%;
+    grid-column: 1/4;
+    margin-top: 100px;
+    grid-row: 1;
+}
+
+#p-project {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    color: #F6FAFB;
+    grid-column: 1/5;
+    grid-row: 1;
+    margin-top: 160px;
+    text-align: right;
+}
+
+@media screen and (min-width:768px) {
+    #project {
+        height: 5070px;
+    }
+
+    #title-project {
+        font-family: 'Roboto', sans-serif;
+        font-size: 120px;
+        color: #F6FAFB;
+        font-weight: 1300;
+        opacity: 30%;
+        grid-column: 2/8;
+        margin-top: 140px;
+        grid-row: 1;
+    }
+    
+    #p-project {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: #F6FAFB;
+        grid-column: 5/12;
+        grid-row: 1;
+        margin-top: 210px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    #project {
+        height: 4106px;
+    }
+
+    #title-project {
+        font-family: 'Roboto', sans-serif;
+        font-size: 140px;
+        color: #F6FAFB;
+        font-weight: 1300;
+        opacity: 30%;
+        grid-column: 2/8;
+        margin-top: 140px;
+        grid-row: 1;
+    }
+    
+    #p-project {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        color: #F6FAFB;
+        grid-column: 5/12;
+        grid-row: 1;
+        margin-top: 210px;
+    }
+    
+}
+
+@media screen and (min-width:1920px) {
+
+    #project {
+        height: 5111px;
+    }
+    
+    #title-project {
+        font-family: 'Roboto', sans-serif;
+        font-size: 230px;
+        color: #F6FAFB;
+        font-weight: 1300;
+        opacity: 30%;
+        grid-column: 2/8;
+        margin-top: 140px;
+        grid-row: 1;
+    }
+    
+    #p-project {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        color: #F6FAFB;
+        grid-column: 5/12;
+        grid-row: 1;
+        margin-top: 260px;
+    }
+
+}
