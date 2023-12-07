@@ -93,9 +93,9 @@
         font-size: 35px;
         color: #F6FAFB;
         grid-row: 1;
-        grid-column: 4/12;
+        grid-column: 4/11;
         text-align: right;
-        margin-top: 150px;
+        margin-top: 190px;
     }
     
     #p2 {
@@ -105,20 +105,20 @@
         grid-column: 3/11;
         grid-row: 1;
         text-align: right;
-        margin-top: 310px;
+        margin-top: 370px;
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1920px) {
 
     #about {
-        height: 1100px;
+        height: 900px;
     } 
 
     #title {
         font-family: 'Roboto', sans-serif;
-        font-size: 170px;
-        font-weight: bold;
+        font-size: 200px;
+        font-weight: bolder;
         color: #F6FAFB;
         opacity: 30%;
         grid-row: 1;
@@ -128,22 +128,22 @@
     
     #p1 {
         font-family: 'Roboto', sans-serif;
-        font-size: 35px;
+        font-size: 44px;
         color: #F6FAFB;
         grid-row: 1;
-        grid-column: 3/11;
+        grid-column: 4/10;
         text-align: right;
-        margin-top: 150px;
+        margin-top: 160px;
     }
     
     #p2 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
+        font-size: 40px;
         color: #F6FAFB;
-        grid-column: 2/11;
+        grid-column: 4/10;
         grid-row: 1;
         text-align: right;
-        margin-top: 310px;
+        margin-top: 330px;
     }
 
 }
