@@ -1,0 +1,149 @@
+#about {
+    height: 1051px;
+    background-color: #E0C7E6;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 105px;
+    color: #F6FAFB;
+    opacity: 30%;
+    grid-row: 1;
+    grid-column: 2/8;
+    margin-top: 90px;
+}
+
+#p1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #F6FAFB;
+    grid-row: 1;
+    grid-column: 2/5;
+    text-align: right;
+    margin-top: 150px;
+}
+
+#p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #F6FAFB;
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: right;
+    margin-top: 310px;
+}
+
+@media screen and (min-width:768px) {
+    #about {
+        height: 716px;
+    } 
+
+    #title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 120px;
+        font-weight: bold;
+        color: #F6FAFB;
+        opacity: 30%;
+        grid-row: 1;
+        grid-column: 2/8;
+        margin-top: 90px;
+    }
+    
+    #p1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        color: #F6FAFB;
+        grid-row: 1;
+        grid-column: 3/12;
+        text-align: right;
+        margin-top: 150px;
+    }
+    
+    #p2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: #F6FAFB;
+        grid-column: 2/12;
+        grid-row: 1;
+        text-align: right;
+        margin-top: 310px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #about {
+        height: 816px;
+    } 
+
+    #title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 170px;
+        font-weight: bold;
+        color: #F6FAFB;
+        opacity: 30%;
+        grid-row: 1;
+        grid-column: 2/7;
+        margin-top: 130px;
+    }
+    
+    #p1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        color: #F6FAFB;
+        grid-row: 1;
+        grid-column: 4/12;
+        text-align: right;
+        margin-top: 150px;
+    }
+    
+    #p2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: #F6FAFB;
+        grid-column: 3/11;
+        grid-row: 1;
+        text-align: right;
+        margin-top: 310px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    #about {
+        height: 1100px;
+    } 
+
+    #title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 170px;
+        font-weight: bold;
+        color: #F6FAFB;
+        opacity: 30%;
+        grid-row: 1;
+        grid-column: 2/7;
+        margin-top: 90px;
+    }
+    
+    #p1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        color: #F6FAFB;
+        grid-row: 1;
+        grid-column: 3/11;
+        text-align: right;
+        margin-top: 150px;
+    }
+    
+    #p2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: #F6FAFB;
+        grid-column: 2/11;
+        grid-row: 1;
+        text-align: right;
+        margin-top: 310px;
+    }
+
+}
