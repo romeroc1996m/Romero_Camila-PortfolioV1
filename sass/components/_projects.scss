@@ -1,26 +1,25 @@
 #project {
-    height: 2100px;
+    height: 1900px;
     background-color: #ECDBEF;
 }
 
 #title-project {
     font-family: 'Roboto', sans-serif;
-    font-size: 85px;
+    font-size: 60px;
     color: #F6FAFB;
-    font-weight: 1300;
     opacity: 30%;
     grid-column: 1/4;
-    margin-top: 100px;
+    margin-top: 30px;
     grid-row: 1;
 }
 
 #p-project {
     font-family: 'Montserrat', sans-serif;
-    font-size: 27px;
+    font-size: 17px;
     color: #F6FAFB;
     grid-column: 1/5;
     grid-row: 1;
-    margin-top: 160px;
+    margin-top: 80px;
     text-align: right;
 }
 
@@ -28,7 +27,7 @@
     grid-column: 1/5;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin-top: 100px;
+    // margin-top: 100px;
 }
 
 #project2{
@@ -63,14 +62,13 @@
 
 @media screen and (min-width:768px) {
     #project {
-        height: 5070px;
+        height: 3800px;
     }
 
     #title-project {
         font-family: 'Roboto', sans-serif;
         font-size: 120px;
         color: #F6FAFB;
-        font-weight: 1300;
         opacity: 30%;
         grid-column: 2/8;
         margin-top: 140px;
@@ -85,32 +83,102 @@
         grid-row: 1;
         margin-top: 210px;
     }
+
+    #project1{
+        grid-column: 2/12;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #project2{
+        grid-column: 2/12;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    #project3{
+        grid-column: 2/12;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    #project4{
+        grid-column: 2/12;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    #project5{
+        grid-column: 2/12;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    
+    #project6{
+        grid-column: 2/12;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
 }
 
 @media screen and (min-width:1200px) {
 
     #project {
-        height: 4106px;
+        height: 1700px;
     }
 
     #title-project {
         font-family: 'Roboto', sans-serif;
-        font-size: 140px;
+        font-size: 100px;
         color: #F6FAFB;
-        font-weight: 1300;
         opacity: 30%;
         grid-column: 2/8;
-        margin-top: 140px;
         grid-row: 1;
     }
     
     #p-project {
         font-family: 'Montserrat', sans-serif;
-        font-size: 35px;
+        font-size: 25px;
         color: #F6FAFB;
         grid-column: 5/12;
         grid-row: 1;
-        margin-top: 210px;
+        margin-bottom: 20px;
+    }
+
+    #project1{
+        grid-column: 2/7;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #project2{
+        grid-column: 7/12;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #project3{
+        grid-column: 2/7;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    #project4{
+        grid-column: 7/12;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    #project5{
+        grid-column: 2/7;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    #project6{
+        grid-column: 7/12;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
     
 }
@@ -118,7 +186,7 @@
 @media screen and (min-width:1920px) {
 
     #project {
-        height: 5111px;
+        height: 2800px;
     }
     
     #title-project {
@@ -134,9 +202,9 @@
     
     #p-project {
         font-family: 'Montserrat', sans-serif;
-        font-size: 50px;
+        font-size: 40px;
         color: #F6FAFB;
-        grid-column: 5/12;
+        grid-column: 4/12;
         grid-row: 1;
         margin-top: 260px;
     }
