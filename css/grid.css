@@ -29,15 +29,6 @@ body, p, h1, h2, h3, h4, h5 {
    display: none;
 }
 
-.box {
-   background-color: powderblue;
-   color: rgb(27, 27, 27);
-   border-radius: 5px;
-   padding: 20px;
-   text-align: center;
-   margin-top: 10px;
-   margin-bottom:10px;
- }
 
 /* ---Mobile Library Grid Styles--- */
 
@@ -53,10 +44,10 @@ body, p, h1, h2, h3, h4, h5 {
  .grid-con { 
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
-   grid-template-rows: repeat(7, 70vw);
+   grid-template-rows: repeat(7, 90vw);
    grid-column-gap: 30px;
    max-width: 1920px;
-   margin: 0 auto;
+   padding-top: 50px;
    padding-left: 15px;
    padding-right: 15px;
 }
