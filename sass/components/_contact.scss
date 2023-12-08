@@ -22,7 +22,6 @@
     color: #F6FAFB;
     grid-column: 1/5;
     grid-row: 1;
-    margin-top: 30px;
     justify-content: center;
     display: flex;
     margin-top: 200px;
@@ -102,4 +101,35 @@ button {
 }
 
 @media screen and (min-width:768px) {
+
+    #contact {
+        height: 1778px;
+    }
+
+    #container {
+        height: 849px;
+        grid-column: 3/11;
+    }
+
+    #titleContact {
+        font-size: 75px;
+        color: #F6FAFB;
+        grid-column: 3/11;
+    }
+
+    #pContact {
+        font-size: 30px;
+        grid-column: 4/10;
+        margin-top: 400px;
+        grid-row: 1;
+    }
+
+    button {
+        grid-column: 3/10;
+        grid-row: 2;
+    }
+
+    #circle1 {
+        grid-column: 10/11;
+    }
 }
