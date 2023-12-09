@@ -44,7 +44,6 @@ body, p, h1, h2, h3, h4, h5 {
  .grid-con { 
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
-   grid-template-rows: repeat(2, 40vw);
    grid-column-gap: 30px;
    max-width: 1920px;
    padding-top: 50px;
@@ -80,7 +79,6 @@ body, p, h1, h2, h3, h4, h5 {
    .grid-con { 
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
-      grid-template-rows: repeat(2, 30vw);
       grid-column-gap: 20px;
       padding-left: 20px;
       padding-right: 20px;
@@ -140,7 +138,6 @@ body, p, h1, h2, h3, h4, h5 {
    .grid-con { 
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
-      grid-template-rows: repeat(4, 35vw);
       grid-column-gap: 30px;
       padding-left: 15px;
       padding-right: 15px;
@@ -199,7 +196,6 @@ body, p, h1, h2, h3, h4, h5 {
    .grid-con { 
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
-      grid-template-rows: repeat(4, 35vw);
       grid-column-gap: 34px;
       padding-left: 17px;
       padding-right: 17px;
