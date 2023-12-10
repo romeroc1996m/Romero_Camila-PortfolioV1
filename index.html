@@ -16,6 +16,7 @@
 
     <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.518/build/spline-viewer.js"></script>
 
+    <script type="module" src="js/video.js"></script>
     <script type="module" src="js/main.js"></script>
 
     <title>Camila Romero Portfolio V1</title>
@@ -72,11 +73,10 @@
                   
     </section>
 
-    <div class="grid-con">
-        <section class="col-span-full" id="player-container">
+    <section id="player-container" class="grid-con">
+        
             <video controls poster="images/placeholder.jpg">
-                <source src="video/video.mp4" type="video/mp4">
-                <source src="video/video.webm" type="video/webm">
+                <source src="video/DemoReelV1.mp4" type="video/mp4">
                 <p>You're using a very old browser, that doesn;t support video playback.</p>
             </video>
             <div class="video-controls hidden" id="video-controls">
@@ -94,9 +94,9 @@
                 <button id="full-screen">
                     <i class="fa fa-arrows-alt"></i>
                 </button>
-            </div>
-        </section>
-    </div>
+            </div> 
+    </section>
+    
 
     <section id="project" class="grid-con">
             
