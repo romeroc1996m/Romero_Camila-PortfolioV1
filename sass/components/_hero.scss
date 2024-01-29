@@ -1,114 +1,176 @@
-#hero {
-    height: 719px;
-    background-color: #ECDBEF;
+.hero {
+    height: 650px;
+    background-color: #001219;
 }
 
-#img-hero {
-    grid-column: 1/4;
+.t-hero {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #E9D8A6;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 45px;
+}
+
+.t-hero1 {
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #E9D8A6;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 15px;
+}
+
+.name {
+    grid-column: 2/4;
     grid-row: 1;
-    width: 375px;
-    height: 489px;
+    margin-top: 240px;
 }
 
-#social {
-    height: 42px;
-    width: 45px;
-    display: flex;
-    grid-row: 2;
-    grid-column: 1/1;
-    margin-left: 20px;
+.img1 {
+    grid-column: 1/3;
+    grid-row: 1;
+    opacity: 50%;
+    position: relative;
 }
 
-#social2 {
-    height: 42px;
-    width: 45px;
-    display: flex;
-    grid-row: 2;
-    grid-column: 1/1;
-    margin-left: 20px;
-    margin-top: 55px;
+.img2 {
+    grid-column: 2/4;
+    grid-row: 1;
+    margin-left: 90px; 
+    opacity: 50%;
+    position: relative; 
 }
 
-#social3 {
-    height: 42px;
-    width: 45px;
-    display: flex;
-    grid-row: 2;
-    grid-column: 1/1;
-    margin-left: 20px;
-    margin-top: 120px;
-}
-
-#p-hero {
-    display: flex;
-    font-family: "Roboto",sans-serif;
-    color: #f6fafb;
-    font-size: 25px;
-    text-align: right;
-    margin-left: 25px;
-    grid-column: 3/4;
-    grid-row: 2;
-    margin-top: 65px;
+.p-hero {
+    color: #EE9B00;
+    font-size: 20px;
+    font-family: 'DM Serif Display', serif;
+    grid-column: 2/5;
+    margin-top: 20px;
 }
 
 @media screen and (min-width:768px) {
-    #hero {
-        height: 703px;
-    }
-
-    #img-hero {
-        grid-column: 4/12;
-    }
-
-    #social {
-        height: 59px;
-        width: 54px;
-        display: flex;
-        grid-column: 2/2;
-        margin-left: 20px;
-        margin-top: 55px;
+    
+    .img1 {
+        grid-column: 1/5;
+        
     }
     
-    #social2 {
-        height: 59px;
-        width: 54px;
-        display: flex;
-        grid-column: 3/3;
-        margin-left: 20px;
+    .img2 {
+        grid-column: 7/11;
+        
     }
     
-    #social3 {
-        height: 59px;
-        width: 54px;
-        display: flex;
-        grid-column: 4/4;
-        margin-left: 20px;
-        margin-top: 55px;
+    .t-hero {
+        font-size: 170px;        
+        margin-top: 100px;
+        margin-left: 140px;
     }
 
-    #p-hero {
-        grid-column: -5/-2;
+    .t-hero1 {
+        font-size: 170px;
+        margin-top: 280px;
+        margin-left: 110px;
     }
-}
 
+    .name {
+        width: 450px;
+        height: 70px;
+        grid-column: 5/10;
+        grid-row: 1;
+        margin-top: 250px;
+    }
+
+    .p-hero {
+        font-size: 30px;
+        grid-column: 5/ 11;
+        grid-row: 1;
+        margin-top: 450px;
+    }
+    }
+    
 @media screen and (min-width:1200px) {
-    #hero {
-        height: 703px;
+    .img1 {
+        grid-column: 1/5;
+        
+    }
+    
+    .img2 {
+        grid-column: 8/12;
+        
+    }
+    
+    .t-hero {
+        font-size: 220px; 
+        margin-left: 310px;
+        margin-top: 70px;
     }
 
-    #img-hero {
-        grid-column: 5/12;
+    .t-hero1 {
+        font-size: 220px;
+        margin-left: 250px;
+        margin-top: 270px;
     }
 
-    #p-hero {
-        grid-column: -5/-2;
+    .name {
+        width: 300px;
+        height: 70px;
+        grid-row: 1;
+        margin-left: 50px;
+        margin-top: 260px;
+    }
+
+    .p-hero {
         font-size: 40px;
+        grid-row: 1;
+        margin-top: 490px;
+        margin-left: 15px;
     }
 }
+
 
 @media screen and (min-width:1920px) {
-    #p-hero {
-        grid-column: -5/-2;
-        font-size: 40px;
+    .hero {
+        height: 913px;
+    }
+ 
+    .img1 {
+        grid-column: 1/5;
+        
+    }
+    
+    .img2 {
+        grid-column: 8/12;
+        
+    }
+    
+    .t-hero {
+        font-size: 320px; 
+        margin-left: 410px;
+        margin-top: 90px;
+    }
+
+    .t-hero1 {
+        font-size: 320px;
+        margin-left: 350px;
+        margin-top: 370px;
+    }
+
+    .name {
+        width: 410px;
+        height: 90px;
+        grid-row: 1;
+        margin-left: 40px;
+        margin-top: 380px;
+    }
+
+    .p-hero {
+        font-size: 50px;
+        grid-row: 1;
+        margin-top: 690px;
+        margin-left: 15px;
     }
 }
