@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.61 275.81">
+
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.02 86">
   <defs>
     <style>
       .cls-1 {
-        fill: none;
-        stroke: #f6fbfc;
-        stroke-miterlimit: 10;
-        stroke-width: 13.61px;
-      }
-
-      .cls-2 {
-        fill: #f6fbfc;
+        fill: #e9d8a6;
         font-family: Roboto-Bold, Roboto;
-        font-size: 200px;
+        font-size: 76.35px;
+
         font-weight: 700;
       }
     </style>
   </defs>
-  <g id="LinkedIn">
-    <path class="cls-1" d="m77.81,268.81c-69,0-71-58.06-71-67l1-129C7.81,41.81,26.81,7.81,69.81,6.81l135.14.12c6.33-.12,12.67.25,18.92,1.29,44.53,7.46,52.85,42.01,51.94,57.59l1,106c.05,10.98-1.73,42.94-4.81,53.48-10.47,35.88-32.38,45.24-125.19,43.52"/>
-    <text class="cls-2" transform="translate(65.62 210.71)"><tspan x="0" y="0">in</tspan></text>
+  <g id="Layer_5" data-name="Layer 5">
+    <text class="cls-1" transform="translate(0 65.31) scale(1.05 1)"><tspan x="0" y="0">in</tspan></text>
   </g>
 </svg>
