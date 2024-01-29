@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348.34 272.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f6fbfc;
+        stroke-miterlimit: 10;
+        stroke-width: 14.64px;
+      }
+    </style>
+  </defs>
+  <g id="Mail">
+    <path class="cls-1" d="m339.32,147.32c8,112-13,115-47.34,118H54.66c-26.15,0-47.34-21.19-47.34-47.34V55.66C7.32,29.52,28.52,8.32,54.66,8.32l243.34-1c3.72,0,7.43.5,11.02,1.48,17.34,4.77,37.31,31.52,16.31,57.52-42.66,52.82-122,174-198,96L51.32,84.32"/>
+  </g>
+</svg>
