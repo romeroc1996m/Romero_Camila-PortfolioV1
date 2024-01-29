@@ -6,7 +6,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat&display=swap" rel="stylesheet">
   
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -16,6 +16,8 @@
 
     <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.518/build/spline-viewer.js"></script>
 
+    <script type="module" src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <script type="module" src="js/video.js"></script>
     <script type="module" src="js/main.js"></script>
 
     <title>Camila Romero Portfolio V1</title>
@@ -31,14 +33,14 @@
             </ul>
         </nav>
         <div id="main-logo">
-            <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+            <a href="index.html"><img src="images/Logo.svg" alt="Logo"></a>
         </div>
 
         <div id="burger-nav">
             <h2 class="hidden">Main Navigation</h2>
             <input type="checkbox" id="hamburger">
             <label for="hamburger">
-                <img src="images/burger_icon.svg" alt="hamburger menu icon">
+                <img src="images/burger.svg" alt="hamburger menu icon">
             </label>
             <div id="burger-con">
                 <ul>
@@ -70,6 +72,31 @@
                     <a href=mailto:"camilaromero.9603@gmail.com"><img src="images/Icon_Mail.svg" id="social3"></a>
     </section>
 
+    <!-- <div class="grid-con">
+        <section class="col-span-full" id="player-container">
+            <video controls poster="images/placeholder.jpg">
+                <source src="video/DemoReelV3.mp4" type="video/mp4">
+                <p>You're using a very old browser, that doesn;t support video playback.</p>
+            </video>
+            <div class="video-controls hidden" id="video-controls">
+                <button id="play-button">
+                    <i class="fa fa-play-circle-o"></i>
+                </button>
+                <button id="pause-button">
+                    <i class="fa fa-pause-circle-o"></i>
+                </button>
+                <button id="stop-button">
+                    <i class="fa fa-stop-circle-o"></i>
+                </button>
+                <i class="fa fa-volume-up"></i>
+                <input type="range" id="change-vol" step="0.05" min="0" max="1" value="1">
+                <button id="full-screen">
+                    <i class="fa fa-arrows-alt"></i>
+                </button>
+            </div>
+        </section>
+    </div> -->
+    
     <section id="project" class="grid-con">
             
         <h2 id="title-project">PROJECTS </h2>
@@ -157,7 +184,7 @@
                 <br>
                 Camila Romero</p>
                 <a href="contact.php">
-                <button>Let's get in touch</button>
+                    <button>Let's get in touch</button>
                 </a>
                 <div class="circle1"></div>
                 <div class="circle2"></div>
