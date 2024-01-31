@@ -102,9 +102,22 @@
 }
 
 @media screen and (min-width:1200px) {
-    #main-header{
-      height: 111px;
-  }
+    #main-logo {
+      grid-column: 11/12;
+      height: 78px;
+      width: 68px;
+    }
+
+      #burger-nav input:checked ~ #burger-con {
+          transform: translateX(-5px);
+          width: 720px;
+      }
+
+      #burger-nav {
+        grid-column: 2/3;
+        height: 44px;
+        width: 88px;
+      }
 
   #burger-nav{
       display: none;
